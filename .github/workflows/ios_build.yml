@@ -30,8 +30,8 @@ jobs:
       # Step 4: Build the app using xcodebuild
       - name: Build iOS app
         run: |
-          xcodebuild -workspace YourApp.xcworkspace \
-          -scheme YourAppScheme \
+          xcodebuild -workspace project.xcworkspace \
+          -scheme xcuserdata/claytonwalker.xcuserdatad/xcschemes \
           -sdk iphoneos \
           -configuration Release \
           clean build \
