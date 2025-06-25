@@ -48,7 +48,7 @@ jobs:
 
       # Step 6: Upload IPA as artifact
       - name: Upload IPA Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ipa-file
           path: ./build/YourApp.ipa
